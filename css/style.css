@@ -1,0 +1,440 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Roboto;
+    }
+/*-------------------------Row 1---------------------------*/
+header{
+    width: 100%;
+    height: 600px;
+   
+}
+header .item img{
+    height: 100px;
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+header .carousel-example-generic{
+    position: relative;
+  
+}
+header .carousel-example-generic .container{
+    position: relative;
+   
+}
+#row1 {
+    position: absolute;
+    top: 20px;
+    right: 171px;
+  
+}
+#row1 .logo{}
+#row1 .logo img{
+    width: 100px;
+    transition: 1s;
+}
+
+#row1 .menu ul li{
+   padding-top: 4px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    overflow: hidden;
+    transition:  2s;
+}
+#row1 .menu ul li:hover {
+       border-top: 1px solid #87d37c;
+    
+}
+#row1 .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 5px 0px 5px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+#row1 .menu ul li:hover a{
+  
+    color: #87d37c;
+    font-size: 15px;
+    
+}
+#row1 .menu ul li:hover{
+ 
+    margin-bottom: -8px; 
+}
+#row1 .menu ul li .active{
+     color: #87d37c;
+    font-size: 15px;
+
+}
+#row1 .sec_content{
+     width: 400px;
+     height: 400px;
+    margin: auto;
+    margin-top:180px; 
+    color: #fff;
+    text-align: center;
+
+
+    
+}
+#row1 .sec_content h1{
+    border: 1px solid #fff;
+    padding: 5px 10px 5px 10px;
+    font-size: 85px;
+    width: 544px;
+    margin: auto;
+    margin-left: -63px;
+
+
+    
+}
+.carousel-indicators{
+    margin-bottom: 30px;
+    transition: 1s;
+}
+.carousel-indicators li{
+     width: 15px;
+    height: 15px;
+    background-color:#fff;
+    transition: 1s;
+}
+
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    background-color:#87d37c;
+    transition: 0.5s;
+}
+
+/*------------------------Row 2---------------------------*/
+#row2{
+    padding-top: 50px;
+    text-align: center;
+    transition: 1s;
+}
+
+.hedline_des p{
+    padding-top: 20px;
+    width: 700px;
+    margin: auto;
+    transition: 1s;
+
+}
+
+
+#row2 .about_group h1{
+    font-size: 20px;
+    transition: 1s;
+}
+#row2 .about_group .icon_part{
+    transition: 1s;
+}
+#row2 .about_group .icon_part:hover{
+    color: #87d37c;
+}
+/*-------------------------Row 3---------------------------*/
+#row3{ 
+    padding-top:30px;
+     text-align: center;
+    background: #e1e1e1;
+    transition: 1s;
+}
+#row3 .service_group .img_des{
+   height: 250px;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+#row3 .service_group .img_des img{
+    height: 250px;
+    width:100%;
+    transition: 1s;  
+}
+#row3 .service_group .img_des .desc_img{
+    position: absolute;
+     height: 250px;
+    width:263px;
+    background: rgba(0,0,0,0.5);
+    transition: 1s;
+}
+
+#row3 .service_group .img_des:hover .desc_img{
+     margin-top: -249px;
+}
+#row3 .service_group .img_des .desc_img:hover{
+    margin-top: -249px;
+}
+#row3 .service_group .img_des .desc_img i{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+   margin-top: 110px;
+    margin-left: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+}
+#row3 .service_group .img_des .desc_img i:hover{
+    background:#87d37c;
+}
+
+
+/*-------------------------Row 4---------------------------*/
+#row4{
+    padding-top:40px; 
+    transition: 1s;
+}
+ .hedline_des{
+    text-align: center;
+     transition: 1s;
+}
+
+
+
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+transition: 1s;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+    transition: 1s;
+}
+
+#row4 .content img{
+    height: 250px;
+    transition: 1s;
+}
+#row4 #myBtnContainer {
+    height: 45px;
+    width: 548px;
+    margin: auto;
+    transition: 1s;
+    
+}
+
+#row4 #myBtnContainer .btn.active:hover {
+    background-color: #87d37c;
+    color: white;
+}
+#row4 #myBtnContainer button{
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    transition: 1s;
+}
+.row {
+  margin: 8px -16px;
+    transition: 1s;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+
+.row > .column {
+  padding: 8px;
+    transition: 1s;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+    transition: 1s;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+margin-left: 30px;
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+    transition: 1s;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+    
+}
+/*-------------------------Row 5---------------------------*/
+
+#row5 .priceing_cards .price_card{
+    background: #39393a;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    transition: 1s;
+}
+#row5 .priceing_cards .price_card:hover{
+    background: #87d37c;
+}
+#row5 .priceing_cards .price_card .circle_p_card{
+    height: 150px;
+    width: 150px;
+    margin: auto;;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    margin-top: 15px;
+    padding-top: 35px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+#row5 .priceing_cards .price_card:hover .circle_p_card{
+    background: #fff;
+    color: #000;
+}
+#row5 .priceing_cards .price_card .circle_p_card p{
+    margin-bottom:-25px; 
+    margin-left: -76px;
+}
+#row5 .priceing_cards .price_card .circle_p_card h3{
+   line-height: 10px;
+}
+#row5 .priceing_cards .price_card .circle_p_card h3 span{
+    font-size: 11px;
+}
+#row5 .priceing_cards .card_des{
+    margin-top: 20px;
+}
+#row5 .priceing_cards .card_des h4{
+    width: 180px;
+    padding: 10px 5px;
+    border-bottom: 1px solid #fff;
+    margin: auto;
+}
+#row5 .priceing_cards .card_des .btn_card{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background: #fff;
+    color: #000;
+    padding:5px 30px ;
+    font-size: 14pt;
+    border: none;
+}
+
+
+
+
+/*-------------------------Row 6---------------------------*/
+#row6{
+    height: 300px;
+    width: 100%;
+    background: url(../img/count_bac1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#row6 .countdown_proj{
+    margin-top: 100px;
+    text-align: center;
+}
+#row6 .countdown_proj .conuter_pro{
+    border: 1px solid #fff;
+}
+
+/*-------------------------Row 7---------------------------*/
+
+#row7 .contuct_group{
+    margin-top: 30px;
+}
+#row7 .contuct_group .con_des{
+    text-align: center;
+    transition: 1s;
+}
+#row7 .contuct_group .con_des .con_icon{
+    transition: 1s;
+}
+#row7 .contuct_group .con_des i{
+    font-size: 30pt;
+}
+#row7 .contuct_group .con_des:hover .con_icon{
+    color: #87d37c;
+}
+
+/*-------------------------Row 8---------------------------*/
+#row8{
+    padding-top: 70px;
+    background: #f5f5f5;
+}
+#row8 form{
+    margin: auto;
+}
+#row8 .btn_form {
+    padding: 7px 10px;
+    background-color: #87d37c;
+    color: #fff;
+    border: none;
+    margin-top: 13px;
+}
+
+
+/*-------------------------Row 9 Footer Section---------------------------*/
+#row9{
+    height: 50px;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border-top: 2px solid #5a5959;
+}
+#row9 h5{
+    text-align: center;
+}
+#row9 .icon_part{
+    margin-top: -32px;
+}
+#row9 .icon_part i{
+    font-size: 24px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: 1s;
+}
+#row9 .icon_part i:hover{
+    color: #87d37c;
+}
