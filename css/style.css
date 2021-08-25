@@ -431,4 +431,8 @@ margin-left: 30px;
     margin-left: 15px;
     text-decoration: none;
     color: #fff;
+    transition:1s;
+}
+#row9 .icon_part i:hover{
+    color:#87d37c;
 }
