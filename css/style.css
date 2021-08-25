@@ -2,12 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 html{
     scroll-behavior: smooth;
 }
 body{
     font-family: Roboto;
+    scroll-behavior: smooth;
     }
 /*-------------------------Row 1---------------------------*/
 header{
