@@ -80,19 +80,25 @@ header .carousel-example-generic .container{
 #row1 .sec_content{
      width: 400px;
      height: 400px;
-    margin: auto;
+ 
     margin-top:180px; 
     color: #fff;
     text-align: center;
-
-
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#row1 .sec_content h3{
+    margin-top: -78px;
+    margin-bottom: 10px;
+    }
     
 }
 #row1 .sec_content h1{
     border: 1px solid #fff;
     padding: 5px 10px 5px 10px;
     font-size: 85px;
-    width: 544px;
+    width: 582px;
     margin: auto;
     margin-left: -63px;
 
