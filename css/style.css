@@ -84,9 +84,10 @@ header .carousel-example-generic .container{
     margin-top:180px; 
     color: #fff;
     text-align: center;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
+    
 }
 #row1 .sec_content h3{
     margin-top: -78px;
