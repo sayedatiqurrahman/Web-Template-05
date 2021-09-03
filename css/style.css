@@ -37,7 +37,6 @@ header .carousel-example-generic .container{
     right: 171px;
   
 }
-#row1 .logo{}
 #row1 .logo img{
     width: 100px;
     transition: 1s;
@@ -92,10 +91,18 @@ header .carousel-example-generic .container{
     }
     
 }
+h1 {
+   
+    word-break: break-all;
+    transition: 1s;
+    border: 2px solid #fff;
+}
 #row1 .sec_content h1{
-    border: 1px solid #fff;
+     word-break: break-all;
+    transition: 1s;
+    border: 2px solid #fff;
     padding: 5px 10px 5px 10px;
-    font-size: 85px;
+    font-size: 62px;
     width: 582px;
     margin: auto;
     margin-left: -63px;
